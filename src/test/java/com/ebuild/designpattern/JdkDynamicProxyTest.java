@@ -1,10 +1,10 @@
 package com.ebuild.designpattern;
 
-import com.eeum.orderbatch.dynamic_proxy.jdkdynamic.code.AImpl;
-import com.eeum.orderbatch.dynamic_proxy.jdkdynamic.code.AInterface;
-import com.eeum.orderbatch.dynamic_proxy.jdkdynamic.code.BImpl;
-import com.eeum.orderbatch.dynamic_proxy.jdkdynamic.code.BInterface;
-import com.eeum.orderbatch.dynamic_proxy.jdkdynamic.code.TimeInvocationHandler;
+import com.ebuild.designpattern.dynamic_proxy.jdkdynamic.AImpl;
+import com.ebuild.designpattern.dynamic_proxy.jdkdynamic.AInterface;
+import com.ebuild.designpattern.dynamic_proxy.jdkdynamic.BImpl;
+import com.ebuild.designpattern.dynamic_proxy.jdkdynamic.BInterface;
+import com.ebuild.designpattern.dynamic_proxy.jdkdynamic.TimeInvocationHandler;
 import java.lang.reflect.Proxy;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
