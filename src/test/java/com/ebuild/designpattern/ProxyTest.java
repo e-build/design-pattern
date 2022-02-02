@@ -1,5 +1,6 @@
 package com.ebuild.designpattern;
 
+
 import com.ebuild.designpattern.proxy.Client;
 import com.ebuild.designpattern.proxy.ConcreteSubject;
 import com.ebuild.designpattern.proxy.SubjectCacheProxy;
